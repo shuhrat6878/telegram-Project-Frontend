@@ -139,12 +139,12 @@ function App() {
               className="rounded-xl w-full h-40 object-cover"
             />
             <h3 className="mt-2 text-center font-semibold">{img.title}</h3>
-            <button
+            {/* <button
               onClick={() => handleDelete(img.id)}
               className="mt-2 w-full bg-red-500 hover:bg-red-600 text-white rounded py-1"
             >
               🗑️ O‘chirish
-            </button>
+            </button> */}
           </div>
         ))}
       </div>
